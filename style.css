@@ -9,11 +9,11 @@
         <h1>jQuery Hide/Show Demo</h1>
         
         <div class="button-controls">
+            <button id="hideBtn">Hide Content</button>
             <button id="showBtn">Show Content</button>
-            <button id="hideBtn" style="display: none;">Hide Content</button>
         </div>
 
-        <div id="contentBox" style="display: none;">
+        <div id="contentBox">
             <h2>Interactive Content Box</h2>
             <p>This box has different mouse events!</p>
             
