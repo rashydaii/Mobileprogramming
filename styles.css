@@ -1,0 +1,51 @@
+body {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 10px;
+    padding: 20px;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+    background-color: white;
+}
+
+#group1, #group2, #group3, #group4 {
+    background-color: peachpuff;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin: 10px;
+}
+
+.box1, .box2, .box3, .box4, .box5, .box6, .box7, .box8 {
+    width: 150px;
+    height: 150px;
+    margin: 5px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: skyblue;
+    border-radius: 8px;
+    color: black;
+    font-weight: bold;
+}
+
+button {
+    margin-top: 5px;
+    padding: 5px 10px;
+    border: none;
+    background-color: blueviolet;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: slateblue;
+}
+
+#result {
+    font-size: 18px;
+    margin-top: 10px;
+    color: darkblue;
+}
