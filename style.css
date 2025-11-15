@@ -1,44 +1,44 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <link rel="stylesheet" href="style.css">
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-</head>
-<body>
-    <div class="container">
-        <h1>jQuery Hide/Show Demo</h1>
-        
-        <div class="button-controls">
-            <button id="hideBtn">Hide Content</button>
-            <button id="showBtn">Show Content</button>
-        </div>
-
-        <div id="contentBox">
-            <h2>Interactive Content Box</h2>
-            <p>This box has different mouse events!</p>
-            
-            <div class="event-box" id="box1">
-                <h3>Box 1 - Mouse Enter</h3>
-                <p>Hover over me!</p>
-            </div>
-
-            <div class="event-box" id="box2">
-                <h3>Box 2 - Mouse Leave</h3>
-                <p>Hover and leave me!</p>
-            </div>
-
-            <div class="event-box" id="box3">
-                <h3>Box 3 - Click Event</h3>
-                <p>Click me!</p>
-            </div>
-
-            <div class="event-box" id="box4">
-                <h3>Box 4 - Double Click</h3>
-                <p>Double click me!</p>
-            </div>
-        </div>
-    </div>
-
-    <script src="script.js"></script>
-</body>
-</html>
+html,body {
+    height: 100%;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    background:white;
+  }
+  
+  .stage{
+    width: 100%;
+    height: 360px;
+    position: relative;       
+    margin: 40px auto;
+  }
+  
+  .kando {
+    position: absolute;       
+    left: 40px;
+    top: 20px;
+    width: 120px;
+    height: 120px;
+    line-height: 120px;
+    text-align: center;
+    color: rgb(22, 107, 44);
+    background-color: whitesmoke;
+    border-radius: 12px;
+    font-size: 20px;
+    font-weight: bold;
+    user-select: none;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.12);
+    transition: background-color 350ms ease, color 350ms ease, font-size 200ms ease, transform 300ms ease;
+    overflow: hidden;
+  }
+  button {
+    padding: 10px 18px;
+    margin-top: 6px;
+    font-size: 16px;
+    background: black;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  button:disabled { opacity: 0.5; cursor: not-allowed; }
+  
