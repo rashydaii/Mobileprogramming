@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "Hellbound MC",
+    "slug": "hellbound-mc",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",                   // Make sure this file exists
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "image": "./assets/splash.png",             // Make sure this file exists
+      "resizeMode": "contain",
+      "backgroundColor": "#000000"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.hellboundmc.app"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",  // Must exist
+        "backgroundColor": "#000000"
+      },
+      "package": "com.hellboundmc.app"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"             // Must exist
+    }
+  }
+}
